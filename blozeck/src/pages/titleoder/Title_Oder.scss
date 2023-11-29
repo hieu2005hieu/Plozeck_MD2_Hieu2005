@@ -1,0 +1,50 @@
+
+.OderTitle {
+    h2{
+        color: #ff5b6a;
+        font-size: 40px;
+        text-align: center;
+        padding: 20px 0;
+    }
+    hr{
+        width: 400px;
+        margin: 0 auto;
+    }
+
+}
+.titles_produsctsx{
+    p{
+        font-size: 20px;
+    }
+    img{
+        width: 200px;
+    }
+}
+.table_titleoder {
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+    margin: 100px;
+}
+
+.table_titleoder_thtbd th,
+.table_titleoder_thtbd td {
+    border: 1px solid;
+    text-align: center;
+    padding: 20px;
+
+}
+.btn_bootraps{
+    background-color: #ff5b6a;
+}
+.tr19 td button {
+    background-color:#ff5b6a;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+.tr19 td button:hover{
+ background-color: #b73c46;
+}

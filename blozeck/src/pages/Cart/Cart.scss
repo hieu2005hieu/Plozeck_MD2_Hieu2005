@@ -1,0 +1,181 @@
+.Cart_producsts{
+    hr{
+        width: 200px;
+        margin: 0 auto;
+        padding:  10px  0;
+    }
+    h2{
+    font-size: 40px;
+    text-align: center;
+    color: #ff5b6a;
+    font-weight: 700;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div_btn_toCart {
+   
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+.div_btn_toCart button{
+   margin-top: 22px;
+}
+.Btn_addtoCartspolist{
+    width: 200px;
+}
+.btn_AddtoCartlitsto{
+ margin-top: 10px;
+}
+#table_body_addtoCart{
+    img{
+        width: 100px;
+    }
+}
+
+#Contact_Cart {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    width: 90%;
+    margin: 150px auto;
+}
+
+.table_cart {
+    font-size: 20px;
+    width: 700px;
+    
+}
+
+.table_cart img {
+    width: 100px;
+    height: 80px;
+}
+
+.theat_Cart th {
+    border-bottom: 1px solid #333 !important;
+    padding: 40px;
+}
+
+.theat_Cart tr {
+    text-align: center;
+}
+
+.table_Cart td {
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.table_Cart td button {
+    border-radius: 20px;
+    height: 35px;
+    min-width: 25px;
+    border: none;
+    background-color: #ff5b6a;
+    color: #fff;
+}
+
+.table_Cart td button:hover {
+    background-color: #fe4353;
+    color: #fff;
+}
+
+.table_Cart td p {
+    font-size: 15px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+
+
+.the_payable_amount {
+    width: 400px;
+    border-left: 0.5px solid rgb(116, 116, 116);
+}
+
+.the_payable_amount input {
+    width: 220px;
+}
+
+.the_payable_amount button {
+    margin-top: 100px;
+    padding: 15px;
+    width: 100%;
+    background-color: #ff5b6a;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+}
+.mani_Cart{
+    margin-top: -100px;
+    font-size: 15px;
+}
+.the_payable_amount button:hover {
+    background-color: rgb(255, 62, 79)
+}
+
+.payable_amount {
+    margin-left: 50px;
+}
+.h2Cart {
+    text-align: center;
+}
+.payable_amount .total_Address_Phone {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+
+}
+#phone_Cart {
+    cursor: pointer;
+}
+.address_Cart {
+    text-align: end;
+}
+.address_Cart #city_Cart{
+    width: 200px;
+    
+}
+.address_Cart #district_Cart{
+    width: 200px;
+}
+.address_Cart #ward_Cart{
+    width: 200px;
+}
+#phoneError_Cart{
+    color: red;
+}
+#addressError{
+    color: red;
+}
+#Erorr_Cart{
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+

@@ -1,0 +1,43 @@
+.product_title {
+    padding: 35px;
+    margin-top: 40px;
+    margin-bottom:-20px;
+    img {
+            width: 100%;
+            height: 100%;
+        }
+    cursor: pointer;
+    h3{
+        color: #ff5b6a;
+    }
+   
+}
+.btn_add  {
+    background-color: #ff5b6a;
+    border-color: #ff5b6a;
+    border-radius: 5px;
+    color: #fff;
+    width: 100%;    
+    margin: 0;
+    padding: 9px;
+    border: none;
+    font-size: 15px; 
+    margin-top: 20px; 
+    font-weight: 600;
+    
+    cursor: pointer;
+}
+
+
+.title {
+    h4{
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+   }
+     h2{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+   }
+}

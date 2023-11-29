@@ -1,0 +1,708 @@
+{
+  "User": [
+    {
+      "id": "ADMIN",
+      "name": "ADMIN",
+      "password": "ADMIN@123",
+      "email": "ADMIN@gmail.com",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/json-15db3.appspot.com/o/images%2Flogin-banner.jpg?alt=media&token=178e33b6-4958-492b-a8e2-b272476fbe63",
+      "role": "admin",
+      "status": true,
+      "cart": []
+    },
+    {
+      "id": "632e465c-3d41-43fa-986b-20d3121468bb",
+      "name": "hieudz",
+      "password": "Hieu2005",
+      "email": "tgdd.hieu2005@gmail.com",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/json-15db3.appspot.com/o/images%2Fe26fe785bb3b6d65342a.jpg?alt=media&token=cfb1ae81-3964-4cec-a595-d6ba096e2df5",
+      "cart": [],
+      "status": true,
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Milkis",
+      "price": 22000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/l/d/ld0090_4.png",
+      "category_id": 1,
+      "description": "Trống",
+      "stock": 30
+    },
+    {
+      "id": 2,
+      "name": "Milo",
+      "price": 10000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/l/d/ld0084_5.png",
+      "category_id": 1,
+      "description": "Trống",
+      "stock": 0
+    },
+    {
+      "id": 3,
+      "name": "Trà vải",
+      "price": 35000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/l/_/l_coffee_tr_v_i_1.png",
+      "category_id": 1,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 4,
+      "name": "Trà dâu",
+      "price": 35000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/l/_/l_coffee_tr_l_i_d_u_t_y.png",
+      "category_id": 1,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 5,
+      "name": "Mirinda (L)",
+      "price": 35000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/l/d/ld0026_5.png",
+      "category_id": 1,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 6,
+      "name": "Cà phê Latte đá",
+      "price": 35000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/l/_/l_coffee_latte_1.png",
+      "category_id": 1,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 7,
+      "name": "Nước Cam",
+      "price": 27000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/l/d/ld0022_5.png",
+      "category_id": 1,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 8,
+      "name": "Cà phê đen",
+      "price": 20000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/l/_/l_coffee_c_ph_en_2.png",
+      "category_id": 1,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 9,
+      "name": "Bạc xỉu đá",
+      "price": 30000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/l/_/l_coffee_b_c_x_u_2.png",
+      "category_id": 1,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 10,
+      "name": "Micho Sparkling",
+      "price": 25000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/n/_/n_c_m_i_1_.jpg",
+      "category_id": 1,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 11,
+      "name": "Pepsi Zero Không Cano",
+      "price": 14000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/l/d/ld0091_2.jpg",
+      "category_id": 1,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 12,
+      "name": "Pepsi",
+      "price": 14000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/l/d/ld0068_2.png",
+      "category_id": 1,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 13,
+      "name": "Gà Pie",
+      "price": 44000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/l/s/ls0057_6.png",
+      "category_id": 2,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 14,
+      "name": "Gà Pie + Pepsi ",
+      "price": 49000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/2/2/229319_6.png",
+      "category_id": 2,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 15,
+      "name": "Khoai Tây Lắc",
+      "price": 39000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/l/s/ls0049_7.png",
+      "category_id": 2,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 16,
+      "name": "Gà Lắc",
+      "price": 43000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/l/c/lc0006_6.png",
+      "category_id": 2,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 17,
+      "name": "Phô Mai Que",
+      "price": 35000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/d/e/dessert_cheese_stick_1_.png",
+      "category_id": 2,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 18,
+      "name": "Mực Rán (3 miếng)",
+      "price": 28000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/l/s/ls0006_5.png",
+      "category_id": 2,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 19,
+      "name": "Cánh Gà Giòn (2 miếng)",
+      "price": 32000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/l/s/ls0051_5.png",
+      "category_id": 2,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 20,
+      "name": "Gà Xiên Que (2 que)",
+      "price": 30000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/l/s/ls0048.png",
+      "category_id": 2,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 21,
+      "name": "Value Burger LChicken",
+      "price": 88000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/2/2/229120-online_4.png",
+      "category_id": 3,
+      "description": "01 Burger LChicken 01 Gà rán",
+      "stock": 50
+    },
+    {
+      "id": 22,
+      "name": "Value Burger Bò",
+      "price": 62000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/2/2/229118-online_5.png",
+      "category_id": 3,
+      "description": "01 Burger Beef 01 Gà rán",
+      "stock": 50
+    },
+    {
+      "id": 23,
+      "name": "Value Burger Double ",
+      "price": 115000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/2/2/228351-online_5.png",
+      "category_id": 3,
+      "description": "01 Burger Double Double 01 Gà rán",
+      "stock": 50
+    },
+    {
+      "id": 24,
+      "name": "Value Burger Mozzarella",
+      "price": 115000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/2/2/228353-online_5.png",
+      "category_id": 3,
+      "description": "01 Burger Mozzarella 01 Gà rán",
+      "stock": 50
+    },
+    {
+      "id": 25,
+      "name": "Value Burger Tôm",
+      "price": 86000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/2/0/200005-online_5.png",
+      "category_id": 3,
+      "description": "01 Burger Tôm 01 Gà rán",
+      "stock": 50
+    },
+    {
+      "id": 26,
+      "name": "Value Burger Bulgogi",
+      "price": 86000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/2/0/200004-online_5.png",
+      "category_id": 3,
+      "description": "01 Burger Bulgogi 01 Gà rán",
+      "stock": 50
+    },
+    {
+      "id": 27,
+      "name": "K-Chicken Set",
+      "price": 86000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/2/2/229449-online_1.png",
+      "category_id": 4,
+      "description": "01 K-Chicken (4 miếng) 01 Khoai tây chiên (M)",
+      "stock": 50
+    },
+    {
+      "id": 28,
+      "name": "Gà Sốt Mật Ong Phần",
+      "price": 93000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/m/e/menu_menu_copy_3_2_.jpg",
+      "category_id": 4,
+      "description": "02 Miếng Gà Mê Mật 01 Khoai tây chiên (M)",
+      "stock": 50
+    },
+    {
+      "id": 29,
+      "name": "Gà Rán Phần",
+      "price": 83000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/2/2/228785-online_5.png",
+      "category_id": 4,
+      "description": "02 Gà rán 01 Khoai tây chiên (M)",
+      "stock": 50
+    },
+    {
+      "id": 30,
+      "name": "Gà Sốt HS Phần",
+      "price": 93000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/2/2/228786-online_5.png",
+      "category_id": 4,
+      "description": "02 Gà sốt HS 01 Khoai tây chiên (M)",
+      "stock": 27
+    },
+    {
+      "id": 31,
+      "name": "Gà Sốt Đậu Phần",
+      "price": 93000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/2/2/228787-online_5.png",
+      "category_id": 4,
+      "description": "02 Gà sốt đậu 01 Khoai tây chiên (M)",
+      "stock": 50
+    },
+    {
+      "id": 32,
+      "name": "Gà Mê Mật (1 miếng)",
+      "price": 43000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/m/e/menu_ga_me_mat_1_mieng_1_.jpg",
+      "category_id": 5,
+      "description": "Trống",
+      "stock": 32
+    },
+    {
+      "id": 33,
+      "name": "Gà Mê Mật (3 miếng)",
+      "price": 116000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/m/e/menu_ga_me_mat_3_mieng.jpg",
+      "category_id": 5,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 34,
+      "name": "Gà Mê Mật (6 miếng)",
+      "price": 212000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/m/e/menu_ga_me_mat_3_mieng_1.jpg",
+      "category_id": 5,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 35,
+      "name": "Gà Rán (1 miếng)",
+      "price": 35000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/l/c/lc0001_4.png",
+      "category_id": 5,
+      "description": "Trống",
+      "stock": 40
+    },
+    {
+      "id": 36,
+      "name": "Gà Rán (3 miếng)",
+      "price": 102000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/2/2/222278_4.png",
+      "category_id": 5,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 37,
+      "name": "Gà Sốt HS (6 miếng)",
+      "price": 212000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/2/2/222287_1.png",
+      "category_id": 5,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 38,
+      "name": "Gà Sốt Đậu (6 miếng)",
+      "price": 212000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/2/2/222288_4.png",
+      "category_id": 5,
+      "description": "Trống",
+      "stock": 17
+    },
+    {
+      "id": 39,
+      "name": "Gà Sốt Phô Mai (6 miếng)",
+      "price": 212000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/2/1/218680_4.png",
+      "category_id": 5,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 40,
+      "name": "Gà Sốt Buffalo (6 miếng)",
+      "price": 212000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/2/2/228612_4.png",
+      "category_id": 5,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 41,
+      "name": "K-Chicken",
+      "price": 75000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/l/c/lc0051_1.png",
+      "category_id": 5,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 42,
+      "name": "Gà Sốt Buffalo (1 miếng)",
+      "price": 45000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/l/c/lc0046_4.png",
+      "category_id": 5,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 43,
+      "name": "Gà Sốt Phô Mai (3 miếng)",
+      "price": 116000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/2/2/222281_4.png",
+      "category_id": 5,
+      "description": "Trống",
+      "stock": 33
+    },
+    {
+      "id": 44,
+      "name": "Gà Nướng (6 miếng)",
+      "price": 212000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/2/2/228380.png",
+      "category_id": 5,
+      "description": "Trống",
+      "stock": 50
+    },
+    {
+      "id": 45,
+      "name": "Gà Mê Mật Phần Upsize",
+      "price": 93000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/m/e/menu_menu_copy_2.jpg",
+      "category_id": 6,
+      "description": "02 Gà mê mật 01 Khoai tây lắc",
+      "stock": 50
+    },
+    {
+      "id": 46,
+      "name": "CB 75k 7Up Soda Chanh",
+      "price": 75000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/m/e/menu_menu_1_.jpg",
+      "category_id": 6,
+      "description": "02 Gà mê mật 01 Pepsi (M)",
+      "stock": 48
+    },
+    {
+      "id": 47,
+      "name": "Combo 1",
+      "price": 81000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/m/e/menu_combo_81k_1_.jpg",
+      "category_id": 6,
+      "description": "01 Gà rán 01 Mì ý (cỡ vừa)",
+      "stock": 47
+    },
+    {
+      "id": 48,
+      "name": "Combo 2",
+      "price": 142000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/m/e/menu_combo_142k.jpg",
+      "category_id": 6,
+      "description": "02 Gà rán 01 Burger tôm",
+      "stock": 46
+    },
+    {
+      "id": 49,
+      "name": "Combo 3",
+      "price": 183000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/m/e/menu_combo_183k.jpg",
+      "category_id": 6,
+      "description": "03 Gà rán 01 Burger Bulgogi",
+      "stock": 50
+    },
+    {
+      "id": 50,
+      "name": "Gà Tứ Vị",
+      "price": 130000,
+      "img": "https://cdn.lotteria.vn/media/catalog/product/m/e/menu_ga_tu_vi_1.jpg",
+      "category_id": 6,
+      "description": "01 Gà mê mật 01 Gà sốt HS",
+      "stock": 50
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "category_name": "https://cdn.lotteria.vn/media/catalog/tmp/category/Promotion-10_1.jpg",
+      "name": "Thức Uống"
+    },
+    {
+      "id": 2,
+      "category_name": "https://cdn.lotteria.vn/media/catalog/tmp/category/BG-Menu-09_1.jpg",
+      "name": "Thức Ăn Nhẹ"
+    },
+    {
+      "id": 3,
+      "category_name": "https://cdn.lotteria.vn/media/catalog/tmp/category/BG_New.jpeg",
+      "name": "Combo berger"
+    },
+    {
+      "id": 4,
+      "category_name": "https://cdn.lotteria.vn/media/catalog/tmp/category/Promotion-03_2.jpg",
+      "name": "Gà Rán Phần"
+    },
+    {
+      "id": 5,
+      "category_name": "https://cdn.lotteria.vn/media/catalog/tmp/category/BG-Menu-Chicken-01-01_1.jpg",
+      "name": "Gà Rán"
+    },
+    {
+      "id": 6,
+      "category_name": "https://cdn.lotteria.vn/media/catalog/tmp/category/Promotion-01_1.jpg",
+      "name": "Combo Ưu Đãi"
+    }
+  ],
+  "bills": [
+    {
+      "user_id": "632e465c-3d41-43fa-986b-20d3121468bb",
+      "user_name": "hieudz",
+      "address": "Thành phố Hà Nội,Quận Ba Đình,Phường Trúc Bạch",
+      "phone": "0987654321",
+      "orderDetails": [
+        {
+          "id": 47,
+          "name": "Combo 1",
+          "price": 81000,
+          "img": "https://cdn.lotteria.vn/media/catalog/product/m/e/menu_combo_81k_1_.jpg",
+          "category_id": 6,
+          "description": "01 Gà rán 01 Mì ý (cỡ vừa)",
+          "stock": 49,
+          "quantity": 1
+        },
+        {
+          "id": 46,
+          "name": "CB 75k 7Up Soda Chanh",
+          "price": 75000,
+          "img": "https://cdn.lotteria.vn/media/catalog/product/m/e/menu_menu_1_.jpg",
+          "category_id": 6,
+          "description": "02 Gà mê mật 01 Pepsi (M)",
+          "stock": 49,
+          "quantity": 1
+        }
+      ],
+      "status": "huy",
+      "total": 156000,
+      "id": 1
+    },
+    {
+      "user_id": "632e465c-3d41-43fa-986b-20d3121468bb",
+      "user_name": "hieudz",
+      "address": "Thành phố Hà Nội,Quận Ba Đình,Phường Phúc Xá",
+      "phone": "0987654321",
+      "orderDetails": [
+        {
+          "id": 48,
+          "name": "Combo 2",
+          "price": 142000,
+          "img": "https://cdn.lotteria.vn/media/catalog/product/m/e/menu_combo_142k.jpg",
+          "category_id": 6,
+          "description": "02 Gà rán 01 Burger tôm",
+          "stock": 50,
+          "quantity": 1
+        }
+      ],
+      "status": "huy",
+      "total": 142000,
+      "id": 2
+    },
+    {
+      "user_id": "632e465c-3d41-43fa-986b-20d3121468bb",
+      "user_name": "hieudz",
+      "address": "Thành phố Hà Nội,Quận Cầu Giấy,Phường Mai Dịch",
+      "phone": "0987654321",
+      "orderDetails": [
+        {
+          "id": 48,
+          "name": "Combo 2",
+          "price": 142000,
+          "img": "https://cdn.lotteria.vn/media/catalog/product/m/e/menu_combo_142k.jpg",
+          "category_id": 6,
+          "description": "02 Gà rán 01 Burger tôm",
+          "stock": 49,
+          "quantity": 2
+        }
+      ],
+      "status": "huy",
+      "total": 284000,
+      "id": 3
+    },
+    {
+      "user_id": "632e465c-3d41-43fa-986b-20d3121468bb",
+      "user_name": "hieudz",
+      "address": "Tỉnh Bắc Ninh,Thành phố Từ Sơn,Phường Phù Khê",
+      "phone": "0987654321",
+      "orderDetails": [
+        {
+          "id": 38,
+          "name": "Gà Sốt Đậu (6 miếng)",
+          "price": 212000,
+          "img": "https://cdn.lotteria.vn/media/catalog/product/2/2/222288_4.png",
+          "category_id": 5,
+          "description": "Trống",
+          "stock": 20,
+          "quantity": 1
+        }
+      ],
+      "status": "huy",
+      "total": 212000,
+      "id": 4
+    },
+    {
+      "user_id": "632e465c-3d41-43fa-986b-20d3121468bb",
+      "user_name": "hieudz",
+      "address": "Thành phố Hải Phòng,Huyện Tiên Lãng,Xã Tiên Minh",
+      "phone": "0987654320",
+      "orderDetails": [
+        {
+          "id": 30,
+          "name": "Gà Sốt HS Phần",
+          "price": 93000,
+          "img": "https://cdn.lotteria.vn/media/catalog/product/2/2/228786-online_5.png",
+          "category_id": 4,
+          "description": "02 Gà sốt HS 01 Khoai tây chiên (M)",
+          "stock": 29,
+          "quantity": 1
+        },
+        {
+          "id": 38,
+          "name": "Gà Sốt Đậu (6 miếng)",
+          "price": 212000,
+          "img": "https://cdn.lotteria.vn/media/catalog/product/2/2/222288_4.png",
+          "category_id": 5,
+          "description": "Trống",
+          "stock": 19,
+          "quantity": 1
+        }
+      ],
+      "status": "huy",
+      "total": 305000,
+      "id": 5
+    },
+    {
+      "user_id": "632e465c-3d41-43fa-986b-20d3121468bb",
+      "user_name": "hieudz",
+      "address": "Tỉnh Quảng Ninh,Thành phố Hạ Long,Phường Việt Hưng",
+      "phone": "0987654321",
+      "orderDetails": [
+        {
+          "id": 48,
+          "name": "Combo 2",
+          "price": 142000,
+          "img": "https://cdn.lotteria.vn/media/catalog/product/m/e/menu_combo_142k.jpg",
+          "category_id": 6,
+          "description": "02 Gà rán 01 Burger tôm",
+          "stock": 47,
+          "quantity": 1
+        }
+      ],
+      "status": "huy",
+      "total": 142000,
+      "id": 6
+    },
+    {
+      "user_id": "632e465c-3d41-43fa-986b-20d3121468bb",
+      "user_name": "hieudz",
+      "address": "Tỉnh Hải Dương,Thành phố Chí Linh,Phường Tân Dân",
+      "phone": "0987654321",
+      "orderDetails": [
+        {
+          "id": 47,
+          "name": "Combo 1",
+          "price": 81000,
+          "img": "https://cdn.lotteria.vn/media/catalog/product/m/e/menu_combo_81k_1_.jpg",
+          "category_id": 6,
+          "description": "01 Gà rán 01 Mì ý (cỡ vừa)",
+          "stock": 48,
+          "quantity": 1
+        }
+      ],
+      "status": "huy",
+      "total": 81000,
+      "id": 7
+    },
+    {
+      "user_id": "632e465c-3d41-43fa-986b-20d3121468bb",
+      "user_name": "hieudz",
+      "address": "Thành phố Hà Nội,Quận Hoàn Kiếm,Phường Hàng Mã",
+      "phone": "0987654321",
+      "orderDetails": [
+        {
+          "id": 38,
+          "name": "Gà Sốt Đậu (6 miếng)",
+          "price": 212000,
+          "img": "https://cdn.lotteria.vn/media/catalog/product/2/2/222288_4.png",
+          "category_id": 5,
+          "description": "Trống",
+          "stock": 18,
+          "quantity": 1
+        },
+        {
+          "id": 30,
+          "name": "Gà Sốt HS Phần",
+          "price": 93000,
+          "img": "https://cdn.lotteria.vn/media/catalog/product/2/2/228786-online_5.png",
+          "category_id": 4,
+          "description": "02 Gà sốt HS 01 Khoai tây chiên (M)",
+          "stock": 28,
+          "quantity": 1
+        }
+      ],
+      "status": "xac nhan",
+      "total": 305000,
+      "id": 8
+    }
+  ]
+}

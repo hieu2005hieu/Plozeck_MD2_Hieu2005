@@ -1,0 +1,4 @@
+.hhhhhh > .slick-dots > li > button::before {
+    display: none !important;
+    color: red !important;
+}

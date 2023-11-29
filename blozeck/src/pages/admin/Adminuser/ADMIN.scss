@@ -1,0 +1,442 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.headeradmin {
+    display: flex;
+    height: 150px;
+}
+
+.title1-header div {
+    color: white;
+}
+
+.title1-header h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 9px;
+}
+
+
+
+
+
+
+.menu-one1 a {
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.menu-one1 {
+    display: flex;
+    margin-top: 40px;
+    transition: 0.5s;
+    h2{
+        font-size: 27px;
+    }
+}
+
+.menu-one1:hover {
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.input_searchProducts{
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    background-color: rgba(196, 194, 194, 0.815);
+    cursor: pointer;
+    padding-left: 20px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.td1_btn_user button{
+    background-color: #ff5b6a;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    color: #fff;
+
+}
+.td1_btn_user button:hover{
+    background-color: rgba(227, 7, 26, 0.712);
+    color: #fff;
+}
+#tableAdded-Products {
+    border-collapse: collapse;
+    width: 500px;
+    margin: 5px 20px;
+    margin-top: 30px;
+    text-align: center;
+    height: 100px;
+    img{
+        width: 80px;
+    }
+}
+
+.main-- {
+    display: flex;
+    height:75vw;
+    width: 100%;
+}
+
+.btn98 {
+    padding: 22px;
+}
+.main-content98_user{
+    width: 100%;
+    padding: 20px;
+}
+.main-content98_cartegoey{
+    width: 100%;
+    padding: 40px;
+}
+
+.table-title_user{
+  width: 100%;
+  margin-top: 30px;
+}
+
+#tableAdded_AdminCategory{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttonNe {
+  background: #F0C27B;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4B1248, #F0C27B);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo_admin{
+    width: 404px;
+    height: 120px;
+    .logoADMIN{
+        width: 40%;
+        height: 100%;
+        margin: 0 auto;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.title1-header {
+    background-color: #ff5b6a;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-one1 {
+    display: flex;
+    margin-top: 40px;
+    transition: 0.5s;
+}
+
+.menu-one1:hover {
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+
+#banner1 {
+    background-color: #ff5b6a;
+    width: 320px;
+   position: relative;
+   bottom: 11px;
+   height: 100%;
+}
+
+#banner1 h3 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+
+
+
+
+
+.btn98 button {
+    background-color: #ff5b6a;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    width: 200px;
+    color: #fff;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.btn98 button:hover {
+    background-color: #cf1221af;
+}
+
+
+
+
+
+
+
+.menu-one1 {
+    display: flex;
+    margin-top: 40px;
+    transition: 0.5s;
+}
+
+.menu-one1:hover {
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+#category98_Category{
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+}
+
+
+#category98_Category input {
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    background-color: rgba(196, 194, 194, 0.815);
+    cursor: pointer;
+    padding-left: 20px;
+    width: 300px;
+}
+
+.table-title {
+    padding: 30px;
+}
+
+.table-title tr,
+td {
+    padding: 17.5px;
+    width: 500px;
+}
+
+
+
+.td1PROduct {
+    border: 1px solid black;
+    padding: 10px;
+    height: 90px;
+    margin: 0 auto;
+    width: 100px;
+}
+.td1PROduct_btn{
+     border: 1px solid black;
+    padding: 10px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.td1PROduct_btn button {
+     background-color: #ff5b6a;
+     color: #fff;
+    border: none;
+    border-radius: 20px;
+    width: 80px;
+    padding: 10px;
+    font-size: 13px;
+    transition: 0.5s;
+    margin-top: 5px;
+}
+
+.td1PROduct_btn button:hover {
+    background-color: #cf1221af;
+    color: #fff;
+}
+
+.tr1 {
+    border: 1px solid black;
+    padding: 15px;
+    margin: 0 auto;
+   
+}
+.td1 {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+.menu-one1 {
+  display: flex;
+  margin-top: 40px;
+  transition: 0.5s;
+}
+
+.menu-one1:hover {
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+
+
+.td1_caetegorys{
+    img{
+        width: 100px;
+    }
+}
+
+
+.main-content98 {
+    width: 900px;
+    height: 800px;
+    padding-left: 20px;
+    padding-top: 20px;
+    h1{
+        font-size: 20px;
+    }
+}
+.lllllll{
+    button{
+  width: 100px;
+  outline: none;
+  border: none;
+  background-color: #ff5b6a;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px;
+    }
+    
+}
+.lllllll button:hover{
+     background-color: #cf1221af;
+}
+.main-content98_cartegoey{
+     width: 100%;
+    height: 800px;
+    padding-left: 20px;
+    padding-top: 20px;
+    h1{
+        font-size: 20px;
+    }
+}
+.butn_adds {
+  width: 50px;
+  outline: none;
+  border: none;
+  background-color: #ff5b6a;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 5px;
+}
+.butn_adds:hover{
+       background-color: #cf1221af;
+
+}
+.input_admin input {
+  width: 100px;
+  padding-top: 9px;
+}
+.product {
+  display: flex;
+  color: black;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  gap: 20px;
+  width:1150px;
+}
+
+
+
+.buttonSave button {
+   background-color: #ff5b6a;
+   color: #fff  ;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: 20px;
+  width: 120px;
+  height: 50px;
+  font-size: 15px;
+  border: none;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.buttonSave button:hover {
+    background-color: #cf1221af;
+  color: white;
+}
+
+.buttonNe {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #000000;
+  background-color: #725ff093;
+  transition: 0.5s;
+}
+
+.buttonNe:hover {
+  background-color: #2a41f0;
+  color: #fff;
+}

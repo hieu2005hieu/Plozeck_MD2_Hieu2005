@@ -1,0 +1,51 @@
+.title_producsts_title{
+    color: black;
+    display: flex;
+    gap: 80px;
+    h3{
+        margin-top: 50px;
+        color: #ff5b6a;
+    }
+    .flex_titleProducst{
+       .btn_titel_producscsc{
+        margin-top: 100px;
+
+        button{
+         background-color: #ff5b6a;
+         border: none;
+         outline: none;
+         margin-top: 50px;
+         width: 100px;
+         padding: 9px 0;
+          border-radius: 20px;
+        }
+       }
+       .btn_titel_producscsc2{
+        margin-top: 50px;
+        display: contents;
+        justify-content: center;
+        button{
+         background-color: #ff5b6a;
+         color: #fff;
+         border: none;
+         outline: none;
+         margin-top: 50px;
+         width: 300px;
+         padding: 9px 0;
+        
+          border-radius: 20px;
+        }
+       }
+    }
+    .imgwh_scss{
+       width: 50%;
+    }
+    img{
+        width: 100%;
+        border: 5px solid rgb(0, 0, 0);
+    }
+    padding: 100px;
+}
+.disabled {
+  text-decoration: line-through;
+}
